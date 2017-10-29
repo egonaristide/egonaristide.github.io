@@ -1,11 +1,49 @@
-body {
-	background: #ece3dd;
-	color: #000000;
-	font-family: Arial, Helvetica, sans-serif;
+* {
+	padding: 0;
+	margin: 0;
 }
+
+body {
+	background: #f6ece1;
+	color: #222222;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.2;
+	padding: 25px;
+}
+
+header {
+	font-size: 18px;
+	background: #ece3dd;
+}
+
+footer {
+	background: #ece3dd;
+	line-height: 1.4;
+	text-align: center;
+}
+
+nav a {
+	color: #000000;
+	font-style: italic;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+aside {
+	float: right;
+}
+
 #slogan {
 	font-style: italic;
 	font-weight: 800;
 	font-size: 130%;
 }
 
+.art_gallery {
+	width: 50%;
+}
