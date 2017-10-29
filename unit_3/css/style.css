@@ -1,9 +1,7 @@
 body {
-	background: #fdfcf9;
+	background: #ece3dd;
+	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
-}
-header {
-	color: #454545;
 }
 #slogan {
 	font-style: italic;
