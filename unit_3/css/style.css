@@ -4,8 +4,10 @@ body {
 }
 header {
 	color: #454545;
-	text-indent: 100px;
 }
 #slogan {
 	font-style: italic;
+	font-weight: 800;
+	font-size: 130%;
 }
+

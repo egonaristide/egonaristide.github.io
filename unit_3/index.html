@@ -7,38 +7,32 @@
 <body>
 	<header>
 			<h1>Reses</h1>
-			<p id="slogan">Art Wanted</p>
 	<div>
 		<nav>
-			<a href="#">link 1</a>
-			<a href="#">link 2</a>
-			<a href="#">link 3</a>
-			<a href="#">link 4</a>
-			<a href="#">link 5</a>
+			<a href="#">Collection</a>
+			<a href="#">About</a>
+			<a href="#">Events</a>
+			<a href="#">Blog</a>
+			<a href="#">Contact</a>
 		</nav>
+		<br>
 	</div>
-			<img src="images/portrait.jpg" alt="Portrait" height="100" width="100">
-			<p class="summary">The Reses collection, showcasing the works of up and coming artists.</p>
-			<p>Contact me:<a href="mailto:e.a.mildenberg@gmail.com">e.a.mildenberg@gmail.com</a>
+			<img src="images/art_gallery.gif" alt="Art Gallery" height="200" width="200">
+			<h2 id="slogan">Art Wanted</h2>
+			<p>The Reses collection, showcasing the works of an up and coming artist. Inspired by many inspirational things, and motivated through motivation, their work shows us what happens when they put their brush to a canvas.</p>
+			<img src="images/sea-painting.jpg" alt="Painting of wild sea" height="200" width="300">
 	</header>
+	<br>
+	<br>
+	<br>
 	<main>
 		<section>
-			<img src="images/portrait.jpg" alt="Portrait" height="100" width="100">
-		</section>
-		<section>
-			<img src="images/portrait.jpg" alt="Portrait" height="100" width="100">
-		</section>
-		<section>
-			<img src="images/portrait.jpg" alt="Portrait" height="100" width="100">
-		</section>
-		<section>
-			<img src="images/portrait.jpg" alt="Portrait" height="100" width="100">
-		</section>
-		<section>
-			<img src="images/portrait.jpg" alt="Portrait" height="100" width="100">
-		</section>
-		<section>
-			<img src="images/portrait.jpg" alt="Portrait" height="100" width="100">
+			<img src="images/portrait.jpg" alt="Portrait 1" height="200" width="200">
+			<img src="images/portrait.jpg" alt="Portrait 2" height="200" width="200">
+			<img src="images/portrait.jpg" alt="Portrait 3" height="200" width="200">
+			<img src="images/portrait.jpg" alt="Portrait 4" height="200" width="200">
+			<img src="images/portrait.jpg" alt="Portrait 5" height="200" width="200">
+			<img src="images/portrait.jpg" alt="Portrait 6" height="200" width="200">
 		</section>
 			<nav>
 				<a href="#">more</a>
@@ -61,15 +55,30 @@
 		<br>
 		<section>
 			<h2>Events</h2>
-			<p>Date</p>
-			<p>Event 1</p>
-			<p>Date</p>
-			<p>Event 2</p>
-			<p>Date</p>
-			<p>Event 3</p>
+			<p>Date : Event 1</p>
+			<p>Date : Event 2</p>
+			<p>Date : Event 3</p>
 		</section>
+		<br>
+		<br>
+		<br>
 		<section>
 			<h2>Contact</h2>
+			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	    		<div class="row">
+					<label for="name">Name:</label><br />
+					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+				</div>
+				<div class="row">
+					<label for="email">Email:</label><br />
+					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				</div>
+				<div class="row">
+					<label for="message">Your message:</label><br />
+					<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				</div>
+				<input id="submit_button" type="submit" value="Send email"/>
+			</form>
 		</section>
 </body>
 </html>
