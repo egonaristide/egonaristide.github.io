@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -46,4 +47,11 @@ aside {
 
 .art_gallery {
 	width: 50%;
+}
+#intro {
+    background: url(../images/art_gallery.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding: 10em 0 0 10em;
 }
