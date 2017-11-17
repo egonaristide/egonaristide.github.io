@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f6ece1;
+	color: #222222;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.2;
+	padding: 25px;
+}
+
+header {
+	font-size: 18px;
+	border: 1px;
+	font-family: sans-serif;
+}
+
+nav a {
+	color: #000000;
+	font-style: italic;
+	text-decoration: none;
+	padding: 45px;
+	float: right;
+}
+
+h2 {
+	margin: 20px;
+	font-size: 180%;
+	font-family: serif;
+}
+
+ul{
+	padding-left: 20px;
+}
+
+div {
+	border: 1px none;
+	float: left;
+	padding: 20px;
+	width: 33%;
+}
+
+footer {
+	line-height: 1.4;
+	text-align: center;
+	background: #ece3dd;
+	clear: both;
+}
+
+#title {
+	font-size: 2.5em;
+	font-family: serif;
+	float: left;
+	padding: 10px;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: 800;
+	font-size: 150%;
+	text-align: center;
+	font-family: serif;
+	padding-right: 70px;
+	margin: 10px;
+}
+
+#intro {
+    background: url(../images/art_gallery.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding: 10em;
+}
+
+#collection {
+	background: #f6ece1;
+	padding: 20px
+}
+
+.artist-pic {
+	float: left;
+	padding: .5em;
+}
+
+#artist {
+	padding: .5em;
+	background: #ece3dd;
+	clear:both;
+}
+
+#events {
+	padding: .5em;
+	padding-left: 85px;
+	float: left;
+	line-height: 1.5;
+}
+
+#contact {
+	padding: .5em;
+	float: right;
+	padding-right: 85px;
+}
+
