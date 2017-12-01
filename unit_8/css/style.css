@@ -49,7 +49,7 @@ p {
 }
 
 div {
-	border: 1px solid black;
+	border: 1px none;
 	float: left;
 	padding: .2em;
 	margin:0 0.1em;
@@ -130,7 +130,7 @@ footer {
 }
 @media only screen and (max-width: 902px) {
 	div {
-    	width: 49%;
+    	width: 48%;
     	text-align: center;
 	}
 	img {
@@ -146,7 +146,12 @@ footer {
 		max-width: 65%;
 	}
 }
-@media only screen and (max-width: 514px) { 
+@media only screen and (max-width: 624px) {
+	div {
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 513px) { 
 	body {
 		font-size: 12px;
  	}
@@ -167,6 +172,9 @@ footer {
 	nav {
 		text-align: center;
 	}
+	div {
+    	width: 45%;
+    }
 	img {
 		max-width: 70%;
 	}
