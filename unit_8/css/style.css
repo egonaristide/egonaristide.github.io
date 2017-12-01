@@ -170,4 +170,15 @@ footer {
 	img {
 		max-width: 70%;
 	}
+	#events {
+		float: none;
+	}
+	ul {
+		width: 100%;
+		margin: 0.3em 4em;
+	}
+	#contact {
+		float: none;
+		text-align: center;
+	}
 }
