@@ -135,28 +135,15 @@ footer {
 	}
 }
 @media only screen and (max-width: 705px) {
+    img {
+		max-width: 65%;
+	}
 	#intro {
     	height: 50vh;
     	padding: 1.5em;
     }
-    img {
-		max-width: 65%;
-	}
-}
-@media only screen and (max-width: 625px) {
-	div {
-		width: 48%;
-	}
 }
 @media only screen and (max-width: 515px) { 
-	#intro {
-    	height: 40vh;
-    	padding: 0.75em;
-	}
-	#title {
-		float: none;
-		text-align: center;
-	}
 	nav a {
 		float: none;
 	}
@@ -175,6 +162,20 @@ footer {
 	img {
 		max-width: 70%;
 	}
+	#intro {
+    	height: 40vh;
+    	padding: 0.75em;
+	}
+	#title {
+		float: none;
+		text-align: center;
+	}
+	#introtext {
+		padding-top: 7.5em;
+	}
+	#slogan {
+		padding-top: 2em;
+	}
 	#events {
 		float: none;
 	}
@@ -185,11 +186,5 @@ footer {
 	#contact {
 		float: none;
 		text-align: center;
-	}
-	#introtext {
-		padding-top: 7.5em;
-	}
-	#slogan {
-		padding-top: 2em;
 	}
 }
