@@ -1,0 +1,195 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f6ece1;
+	color: #222222;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
+	padding: 1.15em;
+}
+
+header {
+	font-family: sans-serif;
+}
+
+nav a {  
+	color: #000000;
+	font-style: italic;
+	text-decoration: none;
+	padding:0.55em;
+	margin-top: 1em;
+	text-transform: uppercase;
+	float:right;
+}
+
+nav a:hover{
+	color:#c57524;
+}
+
+
+h2 {
+	margin: 0.3em;
+	font-size: 1.8em;
+	font-family: serif;
+}
+
+ul{
+	padding: 0 0 1.5em 1.5em;
+	width: 8em;
+	line-height: 2em;
+}
+
+
+div {
+	border: 1px none;
+	float: left;
+	padding: .2em;
+	margin:0 0.1em;
+	width: 33%;
+	text-align: center;
+}
+img {
+	max-width: 75%;
+}
+
+footer {
+	line-height: 1.4em;
+	text-align: center;
+	background: #ece3dd;
+	clear: both;
+}
+
+#title {
+	font-size: 3em;
+	font-family: serif;
+	padding: 0 0.1em;
+	float:left;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: 800;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: serif;
+	padding-right: 0.7em;
+	margin: 0.1em;
+}
+
+#intro {
+    background: url(../images/art_gallery_static.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding: 6em;
+    text-align:center;
+    clear:both;
+}
+
+#collection {
+	background: #f6ece1;
+	margin: .6em;
+}
+
+.artist-pic {
+	float: left;
+	padding: .5em;
+	max-height: 17.85em;
+	box-sizing: border-box;
+}
+
+#artist {
+	padding: .5em;
+	margin: 6em;
+	background: #ece3dd;
+	clear:both;
+	margin: 0 0.1em;
+	overflow: hidden;
+	width: auto;
+	align-items: center;
+}
+
+#events {
+	padding: .5em 1.5em;
+	float: left;
+}
+
+#contact {
+	padding: .5em;
+	float: right;
+	display: inline;
+	padding-right: 1.5;
+}
+@media only screen and (max-width: 910px) {
+	div {
+    	width: 48%;
+    	text-align: center;
+	}
+	img {
+		max-width: 70%;
+	}
+}
+@media only screen and (max-width: 705px) {
+	#intro {
+    	height: 50vh;
+    	padding: 1.5em;
+    }
+    img {
+		max-width: 65%;
+	}
+}
+@media only screen and (max-width: 625px) {
+	div {
+		width: 48%;
+	}
+}
+@media only screen and (max-width: 515px) { 
+	#intro {
+    	height: 40vh;
+    	padding: 0.75em;
+	}
+	#title {
+		float: none;
+		text-align: center;
+	}
+	nav a {
+		float: none;
+	}
+	h2 {
+		text-align: center;
+	}
+	p {
+		font-size: 13px;
+	}
+	nav {
+		text-align: center;
+	}
+	div {
+    	width: 48%;
+    }
+	img {
+		max-width: 70%;
+	}
+	#events {
+		float: none;
+	}
+	ul {
+		width: 50%;
+		margin: 0.3em 25%;
+	}
+	#contact {
+		float: none;
+		text-align: center;
+	}
+	#introtext {
+		padding-top: 7.5em;
+	}
+	#slogan {
+		padding-top: 2em;
+	}
+}
